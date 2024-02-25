@@ -1,3 +1,37 @@
+/* header and footer */
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+.page-wrapper {
+  box-sizing: border-box;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.page-header, .page-footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 20px;
+  background-color: rgb(75, 70, 74);
+  color: #fff;
+}
+
+.page-footer small {
+  float: right;
+}
+
+/* breadcrumb navigation */
 .breadcrumb {
 	padding: 0 0.5rem;
 }
