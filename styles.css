@@ -31,6 +31,11 @@ html, body {
   float: right;
 }
 
+.page-footer a {
+  float: right;
+  color: #fff;
+}
+
 /* breadcrumb navigation */
 .breadcrumb {
 	padding: 0 0.5rem;
